@@ -62,7 +62,9 @@ Open the google doc to view 500 word description [500 word desc](https://docs.go
 ## Presentation Materials
 
 ### Project Demo video
-[![Watch the video](https://github.com/Tlotlo-pat/cropzone/assets/51744364/531ff4e7-9251-4eba-8617-ba26ae7dd46b)](https://youtu.be/jO-PR46KeSc)
+<video src='https://youtu.be/jO-PR46KeSc' width=180/>
+
+
 
 ### Project Development Roadmap
 
