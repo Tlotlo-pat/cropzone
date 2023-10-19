@@ -1,4 +1,4 @@
-![cropzone poster](https://github.com/Tlotlo-pat/cropzone/assets/51744364/6becb583-5d95-4eac-8bc0-f8ac788a3ab5)
+![cropzone large](https://github.com/Tlotlo-pat/cropzone/assets/51744364/7773b949-ac71-4946-b7ef-db2829d94476)
 # Crop Zone:  Making Crop Farming Simple and Efficient with AI
 
 ## Table of Contents
