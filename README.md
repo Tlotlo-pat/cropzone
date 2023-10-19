@@ -66,7 +66,7 @@ Experience Crop Zone in action through our [Live Demo](https://www.youtube.com/w
 
 ### Project Development Roadmap
 
-![CropZone Roadmap](https://github.com/Tlotlo-pat/cropzone/assets/51744364/2b02f66c-f24d-4feb-97eb-697ad81f7685)
+![CropZone Roadmap](https://github.com/Tlotlo-pat/cropzone/assets/51744364/cc693c73-ca87-4e8c-a1ca-cf545ca24f3a)
 
 ## How to Run the Project
 1.Git clone https://github.com/Tlotlo-pat/cropzone
