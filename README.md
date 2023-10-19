@@ -47,7 +47,7 @@ Open the google doc to view 500 word description [500 word desc](https://docs.go
   
 ## Solution Architecture
 
-![CRPZONE drawio](https://github.com/Tlotlo-pat/cropzone/assets/51744364/921538b8-b745-4f6a-ba78-87d427d773eb)
+![cropzonediagram drawio](https://github.com/Tlotlo-pat/cropzone/assets/51744364/bbf38bec-9e79-479d-aa24-b185c1ad1517)
 
 1.Africa's Talking USSD Gateway: This component is responsible for receiving USSD requests from mobile network operators and forwarding them to the Node.js application.
 
