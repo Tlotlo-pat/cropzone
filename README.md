@@ -72,7 +72,7 @@ Experience Crop Zone in action through our [Live Demo](https://www.youtube.com/w
 
 #### 1.Setup Africa Talking
 - Visit https://africastalking.com/ and create a new account or login if you have one. 
-- Follow the following instructions on this link on how to setup Africa Talking dashboard [](https://medium.com/@chegemaimuna/africas-talking-node-js-express-ussd-application-7e10aa400b98)
+- Follow the following instructions on this link on how to setup Africa Talking dashboard https://medium.com/@chegemaimuna/africas-talking-node-js-express-ussd-application-7e10aa400b98
 
 #### 2.Clone Node js code
 Git clone https://github.com/Tlotlo-pat/cropzone
