@@ -69,7 +69,11 @@ Experience Crop Zone in action through our [Live Demo](https://www.youtube.com/w
 ![CropZone Roadmap](https://github.com/Tlotlo-pat/cropzone/assets/51744364/cc693c73-ca87-4e8c-a1ca-cf545ca24f3a)
 
 ## How to Run the Project
-1.Git clone https://github.com/Tlotlo-pat/cropzone
+
+####1.Setup Africa Talking
+
+####2.Clone Node js code
+Git clone https://github.com/Tlotlo-pat/cropzone
 
 
 ## Versioning
