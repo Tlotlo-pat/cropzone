@@ -70,9 +70,9 @@ Experience Crop Zone in action through our [Live Demo](https://www.youtube.com/w
 
 ## How to Run the Project
 
-####1.Setup Africa Talking
+#### 1.Setup Africa Talking
 
-####2.Clone Node js code
+#### 2.Clone Node js code
 Git clone https://github.com/Tlotlo-pat/cropzone
 
 
