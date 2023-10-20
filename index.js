@@ -44,26 +44,54 @@ const languageTranslator = new LanguageTranslatorV3({
     serviceUrl: 'https://api.eu-de.language-translator.watson.cloud.ibm.com/instances/6b79bdcf-aaa5-4b4f-bfd1-b9d316faa62d',
 });
 
+const languages = {
+    '1': 'en', // English
+    '2': 'fr', // French
+    '3': 'ar', // Arabic
+    '4': 'pt', // Portuguese
+};
+
+let selectedLanguage = 'en';
 
 
 
-
-
-
-//keep history of states in this array
-menu.history = [];
 menu.startState({
     run: () => {
         menu.con('Select your preferred language:\n1. English\n2. French\n3. Arabic\n4. Portuguese');
     },
-    next: {
-        '*[1-4]': 'MainMenuState' // Transition to MainMenuState with selected language
-    }
+   
+        next: {
+            '*[1-4]': (userResponse) => {
+                selectedLanguage = languages[userResponse];
+                
+            },
+        },
+
+       
+    
 });
 
+// Define a translateAndDisplay function to translate and display messages
+function translateAndDisplay(message, targetLanguage) {
+    const translateParams = {
+        text: message,
+        source: 'en', // Source language
+        target: targetLanguage, // Target language based on user selection
+    };
+
+    // Translate the message
+    languageTranslator.translate(translateParams)
+        .then(translationResult => {
+            const translatedMessage = translationResult.result.translations[0].translation;
+            menu.con(translatedMessage);
+        })
+        .catch(err => {
+            console.error('Error translating text:', err);
+        });
+}
 menu.state( 'MainMenuState' ,{
     run: () => {
-        menu.con('Welcome to CropZone!\n\nWe make crop farming simple and efficient. Explore our features to access crop distribution information, soil quality analysis, seasonal crop recommendations, farming tips, and more. Choose an option:\n1. Search Crop Distribution\n2. Soil Quality Analysis\n3. Seasonal Crop Recommendations\n4. Farmer\'s Tip of the Day\n5. Crop Trivia\n6. Help\n7. Quit');
+        translateAndDisplay('Welcome to CropZone!\n\nWe make crop farming simple and efficient. Explore our features to access crop distribution information, soil quality analysis, seasonal crop recommendations, farming tips, and more. Choose an option:\n1. Search Crop Distribution\n2. Soil Quality Analysis\n3. Seasonal Crop Recommendations\n4. Farmer\'s Tip of the Day\n5. Crop Trivia\n6. Help\n7. Quit', selectedLanguage);
     },
     next: {
        '1': 'SearchCropDistribution', // State key for searching crop distribution
