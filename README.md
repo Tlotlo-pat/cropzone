@@ -40,6 +40,7 @@ Open the google doc to view 500 word description [500 word desc](https://docs.go
 
 **IBM AI Service(s) Used:**
 - IBM Language Translator , the user choose preferred language.
+In our project, 'CropZone,' we have harnessed the power of IBM AI Language Translator to ensure that our application is accessible and user-friendly to a global audience. Users can effortlessly select their preferred language, and the language translator dynamically translates all text-based content in real-time. This feature eliminates language barriers and enables users from various linguistic backgrounds to benefit from the wealth of information and services provided by CropZone, making it a truly inclusive tool for crop farmers and enthusiasts worldwide.
 
 **Other IBM Technology Used:**
 - IBM Cloudant for real-time data storage and retrieval.
