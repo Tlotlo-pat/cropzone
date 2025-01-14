@@ -89,7 +89,7 @@ We use Semantic Versioning (SemVer) for version control. For available versions,
 
 ## Authors
 
-- [Tlotlo Patriot Kgotlafela](link-to-your-profile) - Founder & AI Developer
+- [Tlotlo Patriot Kgotlafela](https://www.linkedin.com/in/tlotlopkgotlafela/) - Founder & AI Developer
 - [Pako Moatshe]- Product Manager
 - [Ame Lempehu]- Software Developer
 
