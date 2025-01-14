@@ -24,6 +24,8 @@
 
 Crop Zone is a pioneering USSD application aimed at empowering African farmers with crucial agricultural insights. By utilizing advanced technologies, including IBM AI services and other IBM tools, Crop Zone delivers real-time data on crop distribution, soil quality, seasonal recommendations, and valuable farming tips, thereby revolutionizing farming practices and fostering sustainable agriculture aligned with the United Nations Sustainable Development Goals.
 
+Website: https://cropzone.netlify.app/
+
 ## The Issue We Are Hoping to Solve
 
 Crop Zone seeks to address the critical information gap prevalent in African agriculture. Limited access to accurate and timely data, coupled with unpredictable weather patterns and inadequate soil management, hinder smallholder farmers' productivity and profitability. This app aims to bridge this gap by delivering actionable insights directly to farmers' mobile phones.
