@@ -43,40 +43,6 @@ Open the google doc to view 500 word description [500 word desc](https://docs.go
 - IBM Language Translator , the user choose preferred language.
 In our project, 'CropZone,' we have harnessed the power of IBM AI Language Translator to ensure that our application is accessible and user-friendly to a global audience. Users can effortlessly select their preferred language, and the language translator dynamically translates all text-based content in real-time. This feature eliminates language barriers and enables users from various linguistic backgrounds to benefit from the wealth of information and services provided by CropZone, making it a truly inclusive tool for crop farmers and enthusiasts worldwide.
 
-```
-// Define a translateAndDisplay function to translate and display messages
-function translateAndDisplay(message, targetLanguage) {
-    const translateParams = {
-        text: message,
-        source: 'en', // Source language
-        target: targetLanguage, // Target language based on user selection
-    };
-
-    // Translate the message
-    languageTranslator.translate(translateParams)
-        .then(translationResult => {
-            const translatedMessage = translationResult.result.translations[0].translation;
-            menu.con(translatedMessage);
-        })
-        .catch(err => {
-            console.error('Error translating text:', err);
-        });
-}
-menu.state( 'MainMenuState' ,{
-    run: () => {
-        translateAndDisplay('Welcome to CropZone!\n\nWe make crop farming simple and efficient. Explore our features to access crop distribution information, soil quality analysis, seasonal crop recommendations, farming tips, and more. Choose an option:\n1. Search Crop Distribution\n2. Soil Quality Analysis\n3. Seasonal Crop Recommendations\n4. Farmer\'s Tip of the Day\n5. Crop Trivia\n6. Help\n7. Quit', selectedLanguage);
-    },
-    next: {
-       '1': 'SearchCropDistribution', // State key for searching crop distribution
-       '2': 'SoilQualityAnalysis', // State key for soil quality analysis
-       '3': 'SeasonalCropRecommendations', // State key for seasonal crop recommendations
-       '4': 'FarmersTipOfTheDay', // State key for farmer's tip of the day
-       '5': 'CropTrivia', // State key for crop trivia
-       '6': 'Help', // State key for help
-       '7': 'Quit' // State key for quitting the USSD session
-    }
-});
-```
 
 **Other IBM Technology Used:**
 - IBM Cloudant for real-time data storage and retrieval.
