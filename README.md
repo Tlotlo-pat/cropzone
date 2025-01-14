@@ -18,8 +18,7 @@
 - [Versioning](#versioning)
 - [Authors](#authors)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
-  
+
 ## Project Summary
 
 Crop Zone is a pioneering USSD application aimed at empowering African farmers with crucial agricultural insights. By utilizing advanced technologies, including IBM AI services and other IBM tools, Crop Zone delivers real-time data on crop distribution, soil quality, seasonal recommendations, and valuable farming tips, thereby revolutionizing farming practices and fostering sustainable agriculture aligned with the United Nations Sustainable Development Goals.
@@ -124,7 +123,11 @@ We use Semantic Versioning (SemVer) for version control. For available versions,
 
 ## Authors
 
-- [Tlotlo Patriot Kgotlafela](link-to-your-profile) - Developer
+- [Tlotlo Patriot Kgotlafela](link-to-your-profile) - Founder & AI Developer
+- [Pako Moatshe]- Product Manager
+- [Ame Lempehu]- Software Developer
+
+
 
 
 ## License
