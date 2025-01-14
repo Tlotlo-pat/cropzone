@@ -103,7 +103,7 @@ https://github.com/Tlotlo-pat/cropzone/assets/51744364/88c8d038-5b20-479e-b2ab-2
 
 ### Project Development Roadmap
 
-![CropZone Roadmap](https://github.com/Tlotlo-pat/cropzone/assets/51744364/cc693c73-ca87-4e8c-a1ca-cf545ca24f3a)
+![CropZone Roadmap](https://github.com/user-attachments/assets/05ec8ef4-d4db-464a-9cab-aa6567a847fd)
 
 ## How to Run the Project
 
@@ -129,8 +129,5 @@ We use Semantic Versioning (SemVer) for version control. For available versions,
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
-## Acknowledgments
-
-This project template is based on [Billie Thompson's README template](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2).
 
 
